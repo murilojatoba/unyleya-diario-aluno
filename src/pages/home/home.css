@@ -1,0 +1,85 @@
+.container-home {
+  margin-top: 16px;
+  padding: 16px;
+}
+.container-home .form {
+  margin-top: 16px;
+  display: flex;
+  gap: 16px
+}
+.container-home .form .form-field {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 60px;
+}
+.container-home .form .form-field input, select {
+  flex: 1;
+  height: 48px;
+  border-radius: 4px;
+  padding: 0 8px;
+  font-size: 1rem;
+}
+.container-home .form .form-field div {
+  height: 12px;
+}
+.container-home .container-botooes {
+  padding: 16px 0;
+}
+.btn {
+  margin-top: 16px;
+  width: 150px;
+  height: 48px;
+  background: #1a2edf;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.error {
+  font-size: 14px;
+  color: #ff8c8c;
+  padding-left: 8px ;
+}
+.container-table {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  padding: 16px;
+}
+.container-table table {
+  margin-top: 24px;
+  border-top: 1px solid #fff;
+}
+.container-table table tr {
+  display: flex;
+  border-bottom: 1px solid #fff;
+}
+.container-table table tr th {
+  font-size: 1.3rem;
+  padding: 4px 8px;
+}
+.container-table table tr td {
+  /* border: 1px solid #fff; */
+  font-size: 1.2rem;
+  padding: 4px 8px;
+}
+.flex05 {
+  flex: 0.5;
+  text-align: center;
+}
+.flex1 {
+  flex: 1;
+  text-align: left;
+}
+.flex2 {
+  flex: 2;
+  text-align: left;
+}
+.acoes {
+  display: flex;
+  justify-content: space-evenly;
+}
+.acoes svg {
+  cursor: pointer;
+}
